@@ -34,5 +34,6 @@ Route::get('/username/{name}/', function ($name){
 });
 
 Route::get('/sum/{num1}/{num2}', function ($num1, $num2){
-    return ('Sum='.$num1+$num2);
+    $sum=$num1+$num2;
+    return ('Sum='.$sum);
 });
