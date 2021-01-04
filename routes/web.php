@@ -29,6 +29,6 @@ Route::get('/user/{id}/', function ($id){
     return ($id);
 });
 
-Route::get('/user/{name}/', function ($name){
+Route::get('/username/{name}/', function ($name){
     return ('User-'.$name);
 });
