@@ -24,3 +24,7 @@ Route::get('/test/', function (){
 Route::get('/dir/test/', function (){
     return ('!!');
 });
+
+Route::get('/user/{id}/', function ($id){
+    return ($id);
+});
