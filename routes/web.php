@@ -38,6 +38,6 @@ Route::get('/sum/{num1}/{num2}', function ($num1, $num2){
     return ('Sum='.$sum);
 });
 
-Route::get('/user/show-{id}/', function ($id){
+Route::get('/user1/show-{id}/', function ($id){
     return ($id);
 });
