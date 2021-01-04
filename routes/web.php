@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/test/', function (){
     return ('!');
 });
+
+Route::get('/dir/test/', function (){
+    return ('!!');
+});
